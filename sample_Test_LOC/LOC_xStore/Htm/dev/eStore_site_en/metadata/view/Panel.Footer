@@ -1,0 +1,375 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "sms-desktop-section-footer "
+        ],
+        "container|align": "middle",
+        "container|pack": "center",
+        "designer|userAlias": "panel.footer",
+        "designer|userClassName": "Panel.Footer",
+        "height": 60,
+        "layout": "hbox",
+        "maxWidth": null,
+        "responsiveConfig": null,
+        "width": null
+    },
+    "configAlternates": {
+        "scrollable": "boolean",
+        "cls": "typedarray",
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|displayName": "string",
+        "height": "auto",
+        "layout": "string",
+        "layout|flex": "number",
+        "maxWidth": "number",
+        "responsiveConfig": "object",
+        "width": "auto",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "MyContainer60",
+    "designerId": "617b0da6-4545-4983-bf67-90c0d40f6db2",
+    "viewControllerInstanceId": "7932b406-eaaf-4e9a-a679-8a027e58c2dd",
+    "viewModelInstanceId": "426b170b-9c35-48c1-a1ca-5033ebcea065",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "sms-desktop-section-footer-share "
+                ],
+                "container|align": "stretch",
+                "designer|displayName": "share",
+                "layout": "hbox",
+                "layout|flex": null,
+                "margin": "0 0 0 10",
+                "padding": 10,
+                "width": 100
+            },
+            "configAlternates": {
+                "scrollable": "boolean",
+                "cls": "typedarray",
+                "container|align": "string",
+                "designer|displayName": "string",
+                "layout": "string",
+                "layout|flex": "number",
+                "margin": "auto",
+                "padding": "auto",
+                "width": "auto"
+            },
+            "name": "MyContainer109",
+            "designerId": "472786e7-e27b-4d02-91c0-19c797794215",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "sms-icon-btn",
+                        "designer|displayName": "facebook Btn",
+                        "height": null,
+                        "href": "https://www.facebook.com/LOCSoftware",
+                        "layout|flex": 1,
+                        "style": [
+                            "{",
+                            "\"background-image\":\"url('resources/images_classic/site/DesktopFooterIconFacebook.png')\"",
+                            "}"
+                        ],
+                        "text": null,
+                        "width": null
+                    },
+                    "configAlternates": {
+                        "scrollable": "boolean",
+                        "cls": "string",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "href": "string",
+                        "layout|flex": "number",
+                        "style": "object",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton1",
+                    "designerId": "f8d5f329-7218-49ef-9844-d64b9f75b24e"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "sms-icon-btn",
+                        "designer|displayName": "linkedin Btn",
+                        "height": null,
+                        "href": "https://www.linkedin.com/company/loc-software/",
+                        "layout|flex": 1,
+                        "style": [
+                            "{",
+                            "\"background-image\":\"url('resources/images_classic/site/DesktopFooterIconLinkedIn.png')\"",
+                            "}"
+                        ],
+                        "text": null,
+                        "width": null
+                    },
+                    "configAlternates": {
+                        "scrollable": "boolean",
+                        "cls": "string",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "href": "string",
+                        "layout|flex": "number",
+                        "style": "object",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton",
+                    "designerId": "1e44cc60-c4e7-4b5c-9932-fce3a6a6d8aa"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "sms-icon-btn",
+                        "designer|displayName": "Twitter Btn",
+                        "height": 30,
+                        "hidden": true,
+                        "layout|flex": 1,
+                        "style": [
+                            "{",
+                            "\"background-image\":\"url('resources/images_classic/site/DesktopFooterIconTwitter.png')\"",
+                            "}"
+                        ],
+                        "text": null,
+                        "width": null
+                    },
+                    "configAlternates": {
+                        "scrollable": "boolean",
+                        "cls": "string",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "layout|flex": "number",
+                        "style": "object",
+                        "text": "string",
+                        "width": "auto",
+                        "hidden": "boolean"
+                    },
+                    "name": "MyButton2",
+                    "designerId": "5b942bd0-056a-4e1b-a571-0482c7dcfeb0"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "sms-icon-btn",
+                        "designer|displayName": "Google+ Btn",
+                        "height": 30,
+                        "hidden": true,
+                        "layout|flex": 1,
+                        "style": [
+                            "{",
+                            "\"background-image\":\"url('resources/images_classic/site/DesktopFooterIconGoogle.png')\"",
+                            "}"
+                        ],
+                        "text": null,
+                        "width": null
+                    },
+                    "configAlternates": {
+                        "scrollable": "boolean",
+                        "cls": "string",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "layout|flex": "number",
+                        "style": "object",
+                        "text": "string",
+                        "width": "auto",
+                        "hidden": "boolean"
+                    },
+                    "name": "MyButton19",
+                    "designerId": "f81d9a6f-fee5-4b6b-9d56-81dff7c43b6d"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "layout": "vbox",
+                "layout|flex": 2
+            },
+            "configAlternates": {
+                "scrollable": "boolean",
+                "container|align": "string",
+                "layout": "string",
+                "layout|flex": "number"
+            },
+            "name": "MyContainer2",
+            "designerId": "8e7ff9a7-dfec-40f8-84ce-50475c6fd21c",
+            "cn": [
+                {
+                    "type": "Ext.form.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "style": null,
+                        "text": "Copyright ©‎ LOC Software 2018"
+                    },
+                    "configAlternates": {
+                        "scrollable": "boolean",
+                        "layout|flex": "number",
+                        "style": "object",
+                        "text": "string"
+                    },
+                    "name": "MyLabel2",
+                    "designerId": "16d3e1d4-39c3-4c48-bed8-2c32055bb33b"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "margin": "0 15 0 0"
+            },
+            "configAlternates": {
+                "scrollable": "boolean",
+                "layout|flex": "number",
+                "margin": "auto"
+            },
+            "name": "MyContainer28",
+            "designerId": "70528bb6-fd13-4b9f-974c-b29d1db9eaa3",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "border": 0,
+                        "cls": "sms-icon-btn",
+                        "designer|displayName": "AppStore",
+                        "flex": null,
+                        "height": 45,
+                        "href": "https://itunes.apple.com/us/app/loc-software-mstore/id736888808?ls=1&mt=8",
+                        "icon": "resources/images_classic/site/DesktopFooterButtonAppStore.png",
+                        "iconAlign": "top",
+                        "iconCls": null,
+                        "margin": null,
+                        "padding": null,
+                        "scale": "large",
+                        "style": null,
+                        "text": null,
+                        "width": 100
+                    },
+                    "configAlternates": {
+                        "scrollable": "boolean",
+                        "cls": "string",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "href": "string",
+                        "layout|flex": "number",
+                        "style": "object",
+                        "text": "string",
+                        "width": "auto",
+                        "border": "auto",
+                        "flex": "number",
+                        "iconAlign": "string",
+                        "iconCls": "string",
+                        "margin": "auto",
+                        "padding": "auto",
+                        "icon": "string",
+                        "scale": "string"
+                    },
+                    "name": "MyButton99",
+                    "designerId": "79528efb-6930-425d-ab8d-ebedcff8f048"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "border": 0,
+                        "cls": "sms-icon-btn",
+                        "designer|displayName": "Google play",
+                        "flex": null,
+                        "height": 45,
+                        "href": "https://play.google.com/store/apps/details?id=com.locsoftware.mStore450",
+                        "icon": "resources/images_classic/site/DesktopFooterButtonPlay.png",
+                        "iconAlign": "top",
+                        "iconCls": null,
+                        "margin": null,
+                        "padding": null,
+                        "scale": "large",
+                        "style": null,
+                        "text": null,
+                        "width": 100
+                    },
+                    "configAlternates": {
+                        "scrollable": "boolean",
+                        "cls": "string",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "href": "string",
+                        "layout|flex": "number",
+                        "style": "object",
+                        "text": "string",
+                        "width": "auto",
+                        "border": "auto",
+                        "flex": "number",
+                        "iconAlign": "string",
+                        "iconCls": "string",
+                        "margin": "auto",
+                        "padding": "auto",
+                        "icon": "string",
+                        "scale": "string"
+                    },
+                    "name": "MyButton100",
+                    "designerId": "1846ef53-4c81-4935-91fe-833ff56e9a24"
+                }
+            ]
+        }
+    ]
+}
